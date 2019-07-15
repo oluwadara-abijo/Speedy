@@ -25,12 +25,10 @@ public class MainActivity extends AppCompatActivity {
     private void gotoAboutPage() {
         Intent aboutIntent = new Intent(MainActivity.this, AboutActivity.class);
         startActivity(aboutIntent);
-        startActivity(aboutIntent);
     }
 
     private void gotoProfilePage() {
         Intent profileIntent = new Intent(MainActivity.this, ProfileActivity.class);
-        startActivity(profileIntent);
         startActivity(profileIntent);
     }
 }
